@@ -75,6 +75,13 @@ h1 {
   vertical-align: middle;
   margin: .5rem;
 }
+@media (min-width: 768px){
+  .hero-text{
+    width: 40vw;
+    margin: .4rem auto;
+    border-radius: 2rem;
+  }
+}
 h2{
   font-family: 'Great Vibes', cursive;
   font-size: 3rem;
@@ -90,6 +97,7 @@ p{
 img{
   height: 8rem;
 }
+
 .blurb::after{
   display: block;
   content: "";
@@ -97,6 +105,16 @@ img{
   width: 25vw;
   margin: 1.5rem auto;
   background-color: #444349;
+}
+@media (min-width:768px){
+  .blurb{
+    display: inline-block;
+    margin: .3rem;
+    padding: .5rem;
+  }
+  .blurb::after{
+    display: none;
+  }
 }
 .program{
   background: hsla(100,0%,0%,.6);
@@ -143,6 +161,17 @@ li{
 .answer{
   margin-top: 0;
   margin-bottom: 2rem;
+}
+@media (min-width:768px){
+  .question-group{
+    display: inline-block;
+    width: 25vw;
+    vertical-align: top;
+    padding: 1.5rem;
+  }
+  .question-group::after{
+    display: none;
+  }
 }
 .contact p{
   margin: .3rem;
