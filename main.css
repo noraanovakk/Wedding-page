@@ -1,0 +1,163 @@
+*{
+  box-sizing:border-box;
+}
+h1, h2, h3, ul, li, p, img{
+  margin-bottom: 1.5rem;
+}
+.locations, .program, .gifts, .faq, .contact{
+  margin: 1.5 auto;
+  padding: .5rem 1rem;
+  width: 100vw;
+  text-align: center;
+}
+body{
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png');
+  font-family: 'Muli', sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  color: #444349;
+}
+.cover{
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat 70% center/cover;
+  width: 100vw;
+  height: 100vh;  
+  display: table;
+}
+a{
+  color: #bd806e;
+}
+a:hover{
+  color: #eda087;
+  transition: color .3s ease-in-out;
+}
+
+.hero-text-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.hero-text {
+  text-align: center;
+  background: hsla(100,0%,0%,.6);
+}
+
+.tagline {
+  color: white;
+  letter-spacing: .1rem;
+}
+.tagline::after{
+  display: block;
+  content:"";
+  background-color: white;
+  height: 1px;
+  width: 12.51rem;
+  margin: .5rem auto;/*ezzel kerül középre*/
+}
+
+h1 {
+  color: #d2ba87;
+  font-family: 'Great Vibes', cursive;
+  font-size: 5rem;
+  letter-spacing: .08rem;
+}
+
+.date {
+  color: white;
+  letter-spacing: .15rem;
+}
+.date::before,
+.date::after{
+  display:inline-block;
+  content: "";
+  background-color: white;
+  height: 1px;
+  width: 1.5rem;
+  vertical-align: middle;
+  margin: .5rem;
+}
+h2{
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+}
+h3{
+  font-weight: 700;
+  padding: rem;
+  font-family: font-family: 'Libre Baskerville', serif;
+}
+p{
+  padding: .5rem;
+}
+img{
+  height: 8rem;
+}
+.blurb::after{
+  display: block;
+  content: "";
+  height: .1875rem;
+  width: 25vw;
+  margin: 1.5rem auto;
+  background-color: #444349;
+}
+.program{
+  background: hsla(100,0%,0%,.6);
+  width: 100vw;
+  color: #d2ba87;
+}
+.program p{
+  font-style: italic;
+}
+ul{
+  list-style-type: none;
+}
+li{
+  margin: .1rem;
+}
+.gifts img{
+  margin: .1rem;
+}
+.gifts p{
+  margin: .2rem;
+}
+.faq{
+  background: hsla(100,0%,0%,.6);
+  width: 100vw;
+  color: #d2ba87;  
+}
+
+.question-group{
+  padding: .2rem;
+}
+.question-group::after{
+  display: block;
+  content: "";
+  width: 50vw;
+  height: .1875rem;
+  margin: .8rem auto;
+  background-color: #d2ba87;   
+}
+.question{
+  font-weight: bold;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.answer{
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+.contact p{
+  margin: .3rem;
+  padding: .5rem;
+}
+footer{
+  background: #606060;
+    color: white;
+  width: 100vw;
+  height: 8vh;
+  display: table;
+  font-size: .8rem;
+  text-align: center;
+}
+.footer-wrapper{
+  display: table-cell;
+  vertical-align: middle;
+}
